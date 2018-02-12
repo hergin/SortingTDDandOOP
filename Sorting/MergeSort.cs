@@ -27,6 +27,8 @@ namespace Sorting
             }
             else
             {
+                // TODO odd index lists
+
                 // CUT INTO TWO PIECES
                 List<int> list1 = list.GetRange(0, list.Count / 2);
                 List<int> list2 = list.GetRange(list.Count / 2, list.Count / 2);
